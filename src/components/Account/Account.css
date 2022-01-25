@@ -1,0 +1,37 @@
+.accountPage{
+    display: flex;
+    width: 100%;
+    height: 89.9vh;
+    background-color: #9BA3A0;
+    background-repeat: repeat;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    margin: 1.5%;
+    flex-wrap:wrap;
+    align-items: top;
+    justify-content: flex-start;
+    background-color: transparent;
+    width: 100%;
+    padding: 2.5%;
+    flex-direction: column;
+}
+
+.content p{
+    color: #fff;
+    font-size: 25px;
+}
+
+.character{
+    width: 9vw;
+    height: 9vw;
+    border: 4px solid #318CE7;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A7C7E7;
+}

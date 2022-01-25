@@ -1,0 +1,32 @@
+.buyButton{
+    border: transparent;
+    cursor: pointer;
+    background-color: transparent;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+    color: #20B200;
+}
+
+.buyButton:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.buttonDiv{
+    border: 2px solid #318CE7;
+    border-radius: 45px;
+    width: 110px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.buttonDiv:hover{
+       border: 2px solid #20B200;
+       background-color: #8BB283;
+}

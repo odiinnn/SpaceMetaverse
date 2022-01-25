@@ -1,0 +1,46 @@
+.fixed-top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navigationWindow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4830F0;
+    height: 10vh;
+    border-bottom: 1px solid #111;
+    box-shadow: 0 15px 20px #4830F0;
+    width: 100%;
+}
+
+.navigationWindow p{
+    color: white;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 20vmin;
+}
+
+.accountImage{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vmin;
+    height: 6vmin;
+    border: 2px solid white;
+    border-radius: 45px;
+}
+
+
+
+.account img{
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 45px;
+    }

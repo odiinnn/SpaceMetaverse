@@ -1,0 +1,7 @@
+.text{
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif;
+    font-size: calc(2px + 5vmin);
+    letter-spacing: 5px;
+}
+

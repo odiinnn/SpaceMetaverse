@@ -1,0 +1,68 @@
+.modalInfo h2{
+    color: #318CE7;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+    }
+
+.modalInfo p{
+    color: #fff;
+}
+
+.modalInfo a{
+    color: #111;
+    background: #318CE7;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.tableInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    animation: borderColor infinite 5s linear;
+    padding: 5%;
+    border-radius: 45px;
+    width: 20vw;
+    height: 50vh;
+    margin-top: -10%;
+}
+
+@keyframes borderColor {
+  from {
+    border: 2px solid white;
+  }
+  to {
+    border: 2px solid #318CE7;
+  }
+}
+
+.rowMode{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.border{
+    width: 60%;
+    height: 55%;
+    border-bottom: 2px solid #318CE7;
+    border-top: 2px solid #318CE7;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border p{
+    font-size: calc(15px + 1vmin);
+    color: #318CE7;
+}

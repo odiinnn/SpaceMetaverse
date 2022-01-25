@@ -1,0 +1,63 @@
+.windowPlanet{
+    display: flex;
+    background-color: #9BA3A0;
+    background-repeat: repeat-y;
+    justify-content: center;
+    background-attachment: scroll;
+    flex-direction: column;
+
+}
+
+.texta {
+    color: #fff;
+    font-size: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    margin-top: -7%;
+}
+
+.cardStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 45px;
+    width: 17vw;
+    height: 50vh;
+    background-color: #8FF0C5;
+    box-shadow: 0 20px 30px #8FF0C5;
+    margin: 10%;
+}
+
+.withdrawButton{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    width: 9vw;
+    height: 4.5vh;
+    border-radius: 10px;
+    border: 0px solid white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #F07427 0%, #4830F0 51%, #F07427 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.withdrawButton:hover{
+    background-position: right center;
+}
+

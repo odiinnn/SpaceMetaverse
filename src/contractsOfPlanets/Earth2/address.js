@@ -1,0 +1,1 @@
+export const address = '0x12830dCbC856D7636702d02E94DF1f84eDb86eFC'

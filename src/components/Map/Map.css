@@ -1,0 +1,47 @@
+.mapWindow {
+    display: flex;
+    background-image: url('../Static/Background/Space.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    }
+
+.img{
+    width: 5vw;
+    height: 5vh;
+    }
+
+.map{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5%;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    width: 5vmin;
+    height: 5vmin;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.planetButtonStyle{
+    background: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.imgScale{
+    transform: scale(1)
+}
+
+.imgScale:hover{
+    transform: scale(1.5)
+}
+
