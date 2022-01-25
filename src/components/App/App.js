@@ -34,7 +34,7 @@ function App() {
          :<><Route path="/" element={<Enter />} /></>
          }
         </Routes>
-        <Navigate to='/' />
+
     </BrowserRouter>
   </>
   );
