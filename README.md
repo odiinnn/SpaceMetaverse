@@ -1,4 +1,13 @@
 # SpaceMetaverse
+### Here you can buy planets, lands and earn on it, but only on BSC Testnet.
 
+#### Use:
 
-https://telegra.ph/Space-Metaverse-01-25
+  ```
+  npm i
+  ```
+  ```
+  npm start
+  ```
+### Guide:
+#### https://telegra.ph/Space-Metaverse-01-25
