@@ -8,10 +8,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #4830F0;
+    background-color: #9658EB;
     height: 10vh;
     border-bottom: 1px solid #111;
-    box-shadow: 0 15px 20px #4830F0;
+    box-shadow: 0 15px 20px #9658EB;
     width: 100%;
 }
 

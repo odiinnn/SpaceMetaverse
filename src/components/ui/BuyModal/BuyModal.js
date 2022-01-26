@@ -46,7 +46,7 @@ function BuyModal(props) {
             <div className='modalBuyContent'>
                 {props.state
                  ?<>
-                    <p style={{fontSize: '45px', color: '#318CE7'}}>You can see the free land by clicking on this button</p>
+                    <p style={{fontSize: '45px', color: '#9658EB'}}>You can see the free land by clicking on this button</p>
                     <a href={'/planet/'+id}>Check it</a>
                   </>
                  :<>

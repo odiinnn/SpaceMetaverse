@@ -55,13 +55,13 @@ function PlanetsPage(props) {
     return (
         <div className='windowPlanet'>
             {planets
-             ? <><p className='texta' style={{marginLeft: '5%', marginTop: '3%'}}>Your planets</p>
+             ? <><p className='textaPl' style={{marginLeft: '5%', marginTop: '3%'}}>Your planets</p>
                <div className='row'>
                    <PlanetsWindow
                         planets={grid}
                     /></div></>
              : <>
-                <p style={{color: 'white', fontSize: '40px'}}>You have not got any planets</p>
+                <p className='textaPl' style={{color: '#9658EB', fontSize: '40px'}}>You have not got any planets</p>
                 <GiRallyTheTroops style={{fontSize: '50px', color: 'white'}}/>
                </>
             }

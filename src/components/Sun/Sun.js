@@ -87,7 +87,7 @@ export default function Sun(props){
                     <img src={props.img} alt='' style={props.style}/>
                 </div>
                 <div className='sunModalInfo'>
-                    <p style={{color: 'white', fontSize: '30px'}}>You need to burn 1 BNB in the Sun within a month, otherwise the MetaVerse will explode</p>
+                    <p style={{color: '#9658EB', fontSize: '30px'}}>You need to burn 1 BNB in the Sun within a month, otherwise the MetaVerse will explode</p>
                     <div id="progressbar">
                         <div id='progressbar1'></div>
                     </div>

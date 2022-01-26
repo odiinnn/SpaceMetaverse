@@ -6,6 +6,7 @@
     background-repeat: repeat;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .texta {
@@ -17,8 +18,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-top;
     border: 1px dashed white;
+    border-radius: 45px;
     background-color: #8FF0C5;
     box-shadow: 0 20px 30px #8FF0C5;
     width: 17vw;

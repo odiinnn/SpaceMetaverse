@@ -13,7 +13,7 @@
 }
 
 .buttonDiv{
-    border: 2px solid #318CE7;
+    border: 2px solid #9658EB;
     border-radius: 45px;
     width: 110px;
     height: 50px;
@@ -27,6 +27,6 @@
 }
 
 .buttonDiv:hover{
-       border: 2px solid #20B200;
-       background-color: #8BB283;
+       border: 2px solid #148BC6;
+       background-color: #77C0E4;
 }

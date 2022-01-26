@@ -6,13 +6,13 @@
     align-items: center;
     width: 120vh;
     height: 75vh;
-    border: solid #FFFFFF;
+    border: solid #9658EB;
     border-width: 0.1em;
     border-radius: 45px;
-    background-color: #838996;
+    background-color: #FDF5E6;
     margin-top: 8%;
     margin-left: 20%;
-    box-shadow: 0px 0px 10px #fff;
+    box-shadow: 0px 0px 10px #9658EB;
 }
 
 .sunClose{
@@ -55,14 +55,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #838996;
+    border: 2px solid #9658EB;
     border-radius: 45px;
     width: 20vw;
     height: 50vh;
     margin-left: -2%;
     margin-top: -2%;
-    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
-    background: radial-gradient(#666A75 65%, #3B3B3B);
+    box-shadow: inset 0px 0px 10px #9658EB;
+    background: #E7E0D2;
 }
 
 #progressbar {
@@ -77,7 +77,7 @@
 #progressbar1 {
   content: '';
   display: block;
-  background: #4830F0;
+  background: #9658EB;
   height: 100%;
   width: 0%;
   border-radius: 13px;
@@ -95,7 +95,7 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-image: linear-gradient(to right, #9EEFE1 0%, #9658EB 51%, #9EEFE1 100%);
     background-size: 200% auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     transition: .5s;
@@ -109,7 +109,7 @@
 
 .sunInput{
     background-color: #9EEFE1;
-    border: 2px solid #4830F0;
+    border: 2px solid #9658EB;
     width: 15vw;
     height: 4vh;
     border-radius: 13px;
@@ -119,7 +119,7 @@
 .sunInput:focus{
     background-size: 200% auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
-    background-image: linear-gradient(to right, #4830F0 0%, #9EEFE1 51%, #9EEFE1 100%);
+    background-image: linear-gradient(to right, #9658EB 0%, #9EEFE1 51%, #9658EB 100%);
     color: white;
     font-size: 20px;
 }

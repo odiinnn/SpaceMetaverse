@@ -72,11 +72,11 @@ function BuyButton(props) {
       return (
       <>
         <button className='buttonDiv' onClick={openBuyModal}>
-            <p style={{color: '#318CE7'}}> {props.text} </p>
+            <p style={{color: '#9658EB'}}> {props.text} </p>
             <div className='buyButton'><GrMoney style={fontStyles} /></div>
         </button>
         <button className='buttonDiv' onClick={buyLand}>
-            <p style={{color: '#318CE7'}}> {props.text1} </p>
+            <p style={{color: '#9658EB'}}> {props.text1} </p>
             <div className='buyButton'><GrMoney style={fontStyles} /></div>
         </button>
         {modalIsOpen

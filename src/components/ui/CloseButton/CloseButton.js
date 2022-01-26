@@ -1,7 +1,7 @@
 import './CloseButton.css';
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 
-const fontStyles = {color: '#318CE7', fontSize: '35px'};
+const fontStyles = {color: '#9658EB', fontSize: '35px'};
 
 function CloseButton() {
   return (

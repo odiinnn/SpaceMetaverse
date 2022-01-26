@@ -1,6 +1,6 @@
 .windowPlanet{
     display: flex;
-    background-color: #9BA3A0;
+    background-color: #FDF5E6;
     background-repeat: repeat-y;
     justify-content: center;
     background-attachment: scroll;
@@ -8,8 +8,8 @@
 
 }
 
-.texta {
-    color: #fff;
+.textaPl {
+    color: #9658EB;
     font-size: 50px;
 }
 

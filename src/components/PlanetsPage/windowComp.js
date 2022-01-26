@@ -129,10 +129,10 @@ return(
                                         border: '1px solid white', marginTop: '-20%'}}></img>
                                         {load
                                          ?<Loader />
-                                         : <><p style={{color: 'white', fontSize: '20px'}}>{value ? value : value} BNB</p>
+                                         : <div style={{ paddingTop: '-5%' }}><p style={{color: 'white', fontSize: '20px'}}>{value ? value : value} BNB</p>
                                             <Button
                                                 id={nodeId}
-                                            /></>
+                                            /></div>
                                         }
 
                                     </div>
